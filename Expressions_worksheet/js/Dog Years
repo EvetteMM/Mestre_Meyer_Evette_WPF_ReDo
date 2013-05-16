@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//one dog year equals 7 human years - Sparky is 4 so calculate dog years
+var sparkysAge = 4;
+var dogYears = 7;
+var answer;
+answer = 4 * 7;
+alert(answer);
+
+alert(4 * 7);
+
+answer = sparkysAge * dogYears;
+alert(answer);
+
+</script>
+</body>
+</html>
