@@ -1,0 +1,22 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//Sparky gets to eat leftover pizza.  With 10 guests, 4 pies and each guest eating 3slices, how much is left for Sparky?
+var numberPies = 4;
+var numberSlicesPerPie = 8;
+var numberGuests = 10;
+var slicesPerGuest = 3;
+var answer;
+//Multiply number of pies by number of slices per pie.  Multiply number of guests by number of slices they each eat. Subtract second answer from first.
+answer = (4 * 8) - (10 * 3);
+alert(answer)
+alert (4 * 8) - (10 * 3);
+
+answer = (numberPies * numberSlicesPerPie) - (numberGuests * slicesPerGuest);
+alert(answer);
+
+</script>
+</body>
+</html>
