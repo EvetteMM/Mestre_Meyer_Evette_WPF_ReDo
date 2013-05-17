@@ -9,12 +9,14 @@ var kateWebHoursBilled = prompt("How many hours did Kate bill for web design thi
 var jaySocMedHoursBilled = prompt("How many hours did Jay bill for social media this week?");
 var saraEmailMktgHoursBilled = prompt("How many hours did Sara bill for email marketing this week?");
 var lisaGraphicHoursBilled = prompt("How many hours did Lisa bill for graphic design this week?");
+//show hourly rate each team member charges
 var kateHourlyRate = 50;
 var jayHourlyRate = 40;
 var saraHourlyRate = 30;
 var lisaHourlyRate = 25;
-var numberTeam = 4;
-
+//multiply hours billed by hourly rate for each team member; then add them all together
+var revenueForWeek = (kateWebHoursBilled * kateHourlyRate) + (jaySocMedHoursBilled * jayHourlyRate) + (saraEmailMktgHoursBilled * saraHourlyRate) + (lisaGraphicHoursBilled * lisaHourlyRate);
+alert("Our team generated $" + revenueForWeek + " this week!")
 </script>
 </body>
 </html>
