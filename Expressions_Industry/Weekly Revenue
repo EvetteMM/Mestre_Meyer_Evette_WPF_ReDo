@@ -4,7 +4,7 @@
 <body>
 <script type="text/javascript">
 //Calculate how much each designer generates in revenue each week by how much they bill per hour and how many hours they bill for.
-
+//Create prompts to find out how many hours each designer billed
 var kateWebHoursBilled = prompt("How many hours did Kate bill for web design this week?");
 var jaySocMedHoursBilled = prompt("How many hours did Jay bill for social media this week?");
 var saraEmailMktgHoursBilled = prompt("How many hours did Sara bill for email marketing this week?");
@@ -14,7 +14,7 @@ var kateHourlyRate = 50;
 var jayHourlyRate = 40;
 var saraHourlyRate = 30;
 var lisaHourlyRate = 25;
-//multiply hours billed by hourly rate for each team member; then add them all together
+//multiply hours billed by hourly rate for each team member within parentheses; then add them all designers' totals together
 var revenueForWeek = (kateWebHoursBilled * kateHourlyRate) + (jaySocMedHoursBilled * jayHourlyRate) + (saraEmailMktgHoursBilled * saraHourlyRate) + (lisaGraphicHoursBilled * lisaHourlyRate);
 alert("Our team generated $" + revenueForWeek + " this week!")
 </script>
