@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//Calculate how much each designer generates in revenue each week by how much they bill per hour and how many hours they bill for.
+
+var kateWebHoursBilled = prompt("How many hours did Kate bill for web design this week?");
+var jaySocMedHoursBilled = prompt("How many hours did Jay bill for social media this week?");
+var saraEmailMktgHoursBilled = prompt("How many hours did Sara bill for email marketing this week?");
+var lisaGraphicHoursBilled = prompt("How many hours did Lisa bill for graphic design this week?");
+var kateHourlyRate = 50;
+var jayHourlyRate = 40;
+var saraHourlyRate = 30;
+var lisaHourlyRate = 25;
+var numberTeam = 4;
+
+</script>
+</body>
+</html>
