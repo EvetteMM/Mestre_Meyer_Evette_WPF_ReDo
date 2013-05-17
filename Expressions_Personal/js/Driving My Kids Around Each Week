@@ -10,9 +10,11 @@ var minutesHouseToSchool = prompt("How many minutes does it take to drive to sch
 var minutesWorkToSchool = prompt("How many minutes does it take to pick kids up in drive line after work?");
 var minutesSchoolToGym = prompt("How many minutes does it take to get kids to gymnastics after school?");
 var minutesGymToHome = prompt("How many minutes does it take to get kids from gymnastics to home?");
-//Add minutes per each trip together.  Multiply by 5 days.  Divide by 60 minutes to calculate hours
-var daysOfDriving = 5;
-var minutesPerHour = 60;
+//Add minutes per each trip together.    
+var daysOfDriving = 5; 
+//Multiply by 5 days.
+var minutesPerHour = 60; 
+//Divide by 60 minutes to calculate hours
 //Had the worst time getting variables to add up correctly for such a simple math problem.  Google adding java variables and found info on W3 site for parsing variables.  It worked.
 var hoursDrivenEachWeek = (((parseInt(minutesHouseToSchool) + parseInt(minutesWorkToSchool) + parseInt(minutesSchoolToGym) + parseInt(minutesGymToHome)) * daysOfDriving) / minutesPerHour);
 alert("I drive my kids around " + hoursDrivenEachWeek + " hours every week.")
