@@ -3,15 +3,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <body>
 <script type="text/javascript">
-//Prompt and alert to calculate how many hours I spend driving my kids around every week
+//Prompt and alert to calculate how many hours I spend driving my kids around every week. First calculate minutes to each destination point.
 var minutesHouseToSchool = prompt("How many minutes does it take to drive to school in the morning?");
 var minutesWorkToSchool = prompt("How many minutes does it take to pick kids up in drive line after work?");
 var minutesSchoolToGym = prompt("How many minutes does it take to get kids to gymnastics after school?");
 var minutesGymToHome = prompt("How many minutes does it take to get kids from gymnastics to home?");
+//Need to divide number of minutes to reach each destination by 60 minutes inside parentheses.  Then multiply by 5. Then add.
 var minutesInAnHour = 60;
 var daysOfDriving = 5;
-var hoursPerWeek = ((minutesHouseToSchool + minutesWorkToSchool + minutesSchoolToGym + minutesGymToHome) / minutesInAnHour) * daysOfDriving;
-alert("I drive my kids around " + hoursPerWeek + " per week");
+var hoursPerWeek = (minutesHouseToSchool / minutesInAnHour) + (minutesWorkToSchool / minutesInAnHour) + (minutesSchoolToGym / minutesInAnHour) + (minutesGymToHome / minutesInAnHour) * 5;
+
+alert("I drive my kids around " + hoursPerWeek + " per week.);
 
 </script>
 </body>
