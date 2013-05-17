@@ -11,12 +11,12 @@ var scott3 = prompt("How long did Scott stay on the surfboard on his third try?"
 var eve1 = prompt("How long did Evette stay on the surfboard on her first try?");
 var eve2 = prompt("How long did Evette stay on the surfboard on her second try?");
 var eve3 = prompt("How long did Evette stay on the surfboard on her third try?");
-//Add each person's scores and divide by 3 to get average time
-var numberOfTurns = 3;
-var scottTimeOnBoard = (scott1 + scott2 + scott3) / numberOfTurns;
-var evetteTimeOnBoard = (eve1 + eve2 + eve3) / numberOfTurns;
+//Add each person's scores and divide by 3 turns
+var turnsOnBoard = 3;
+var scottAvgTimeOnBoard = ((scott1 + scott2 + scott3) / turnsOnBoard);
+var evetteAvgTimeOnBoard = ((eve1 + eve2 + eve3) / turnsOnBoard);
 //Create alert to give final results
-alert("Scott stayed on his board " + scottTimeOnBoard + " minutes. " + " Evette stayed on her board " + evetteTimeOnBoard + " minutes.")
+alert("Scott stayed on his board an average of " + scottAvgTimeOnBoard + " minutes. " + " Evette stayed on her board an average of " + evetteAvgTimeOnBoard + " minutes.")
 //getting really weird answers. can't figure out why when the math is straightforward
 </script>
 </body>
