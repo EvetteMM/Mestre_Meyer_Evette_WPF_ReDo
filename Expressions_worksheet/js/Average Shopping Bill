@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//calculate what I spend weekly on groceries. Add five weeks worth of grocery bills and divide by 5 to get average  
+var billWeek1 = 175;
+var billWeek2 = 183;
+var billWeek3 = 137;
+var billWeek4 = 260;
+var billWeek5 = 148;
+var numberWeeks = 5;
+var answer;
+answer = (175 + 183 + 137 + 260 + 148)/5;
+alert(answer);
+
+alert((175 + 183 + 137 + 260 + 148)/5);
+
+answer = (billWeek1 + billWeek2 + billWeek3 + billWeek4 + billWeek5)/5;
+alert(answer);
+
+</script>
+</body>
+</html>
