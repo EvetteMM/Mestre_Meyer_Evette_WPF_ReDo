@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//one pizza pie has 8 slices, there are 20 guests and 5 pies
+var pieSlices = 8;
+var numberGuests = 20;
+var numberPiesOrdered = 5;
+
+var answer;
+
+answer = (8 * 5) / 20;
+alert(answer);
+alert( (8 *5) / 20);
+
+answer = (pieSlices * numberPiesOrdered) / numberGuests;
+alert(answer);	
+</script>
+</body>
+</html>
