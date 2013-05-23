@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+
+//Evette Mestre Meyer_5-23-13_Movie Ticket Price
+//Determine whether movie goers qualify for discount tickets for age or movie time
+//If the person is 55 years of age or older OR under 10 years of age, they pay $7
+//If the person is seeing a movie between 3 pm and 5 pm, they pay $7
+
+var ageCustomer = Number(prompt("You may qualify for a discount ticket depending on your age.  How old are you?", ""));
+var showTime = Number(prompt("You may qualify for a discount depending on your show time.  What show time are you selecting?", ""));
+
+if (ageCustomer < 10 || ageCustomer >= 55)
+//if the customer is 55+ or under 10 they get discount
+{
+	document.write("You pay discounted ticket price of $7.  You saved $5 today! Thank you.");
+}
+
+if ((ageCustomer >= 10 && ageCustomer < 55) && (showTime >= 3 && showTime < 5))
+//if the customer 10 or older and under 55 AND show time is between 3 and 5, they get discount
+{
+	document.write("You pay discounted ticket price of $7.  You saved $5 today! Thank you.");
+}
+
+if ((ageCustomer >= 10 && ageCustomer < 55) && (showTime < 3 || showTime > 5))
+//if the customer is 10 or older and under 55 AND show time is before 3 or after 5, no discount
+{
+	document.write("Your ticket is $12.  Thank you!");
+}
+
+</script>
+</body>
+</html>
