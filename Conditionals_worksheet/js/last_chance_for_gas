@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//Evette Mestre Meyer_5-23-13_Last Chance for Gas
+
+//A driver needs to determine if they can make it across 200 miles of desert with the remaining gas in their tank
+//Need to know gas efficiency (mpg) of car, percentage gas left, gas tank capacity
+
+var gasInTank = Number(prompt("Enter the percentage of gas you have left in your tank", ""));
+var milesPerGallon = Number (prompt("How many miles per gallon does your car average?", ""));
+var tankSize = Number (prompt("How many gallons does your car's tank hold", ""));
+var percentGasLeft;
+
+percentGasLeft = gasInTank * .01;
+//convert gas in tank to a fraction
+
+if (percentGasLeft >= .59)
+//if percentage of gas left is greater than or equal to
+{document.write("Yes you can make it without stopping for gas!");
+}else if (percentGasLeft < .59)
+//if percentage of gas left is less than
+{document.write("You have " + ((percentGasLeft * tankSize) *milesPerGallon) + " gallons of gas in your car.  Better stop for gas now while you can!")}
+//show calculated gas remaining to convince driver to get gas asap
+
+</script>
+</body>
+</html>
