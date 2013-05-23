@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+
+//Evette Mestre Meyer_5-23-13_Grade Letter Calculator
+
+//A student receives a percentage grade for a Full Sail class.  What is the equivalent letter grade?
+
+var percentGrade = Number(prompt("What is your number grade?", ""));
+
+if (percentGrade >= 0 && percentGrade <= 69)
+{
+	document.write("Your grade is " + percentGrade + " percent, which means you have an F in the class!");
+}else if (percentGrade >= 70 && percentGrade <= 72)
+{
+	document.write("Your grade is " + percentGrade + " percent, which means you have an D in the class!");
+}else if (percentGrade >= 73 && percentGrade <= 79)
+{
+	document.write("Your grade is " + percentGrade + " percent, which means you have a C in the class!");
+}else if (percentGrade >= 80 && percentGrade <= 89)
+{
+	document.write("Your grade is " + percentGrade + " percent, which means you have an B in the class!");
+}else if (percentGrade >= 90 && percentGrade <= 100)
+{
+	document.write("Your grade is " + percentGrade + " percent, which means you have an A in the class!");
+}
+
+</script>
+</body>
+</html>
