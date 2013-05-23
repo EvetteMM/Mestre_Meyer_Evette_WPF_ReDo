@@ -7,9 +7,11 @@
 //Evette Mestre Meyer_5-23-13_Grade Letter Calculator
 
 //A student receives a percentage grade for a Full Sail class.  What is the equivalent letter grade?
+//Need student's percent grade
 
 var percentGrade = Number(prompt("What is your number grade?", ""));
 
+//if the percent grade is greater than or equal to AND less than or equal to, show the equivalent grade
 if (percentGrade >= 0 && percentGrade <= 69)
 {
 	document.write("Your grade is " + percentGrade + " percent, which means you have an F in the class!");
