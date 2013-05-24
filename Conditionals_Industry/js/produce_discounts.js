@@ -8,19 +8,19 @@
 //Greenacre Farms is offering a 10% Discount on orders over 50 pounds OR over $250
 //Ppp is shorthands for price per pound
 
-var lbsLettuce = Number(prompt("How many pounds of lettuce would you like today?"), "");
+var lbsLettuce = Number(prompt("How many pounds of lettuce would you like today?", ""));
 var lettucePpp;
 lettucePpp = .50;
 var lettuceTotal;
 lettuceTotal = lbsLettuce * lettucePpp;
 
-var lbsTomatoes = Number(prompt("How many pounds of tomatoes would you like today?"), "");
+var lbsTomatoes = Number(prompt("How many pounds of tomatoes would you like today?", ""));
 var tomatoesPpp;
 tomatoesPpp = .50;
 var tomatoesTotal;
 tomatoesTotal = lbsTomatoes * tomatoesPpp;
 
-var lbsCukes = Number(prompt("How many pounds of cucumbers would you like today?"), "");
+var lbsCukes = NumberNumber(prompt("How many pounds of cucumbers would you like today?", ""));
 var cukesPpp;
 cukesPpp = .50;
 var cukesTotal;
