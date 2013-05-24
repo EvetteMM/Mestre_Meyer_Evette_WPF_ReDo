@@ -26,21 +26,17 @@ var calConsumedThisWeek;
 calConsumedThisWeek = calMon + calTues + calWed + calThur + calFri + calSat + calSun;
 
 var avgCalConsumed;
-avgCalConsumed = (calConsumedThisWeek / 1000);
+avgCalConsumed = calConsumedThisWeek / 1000;
 
 var milesRunThisWeek;
 milesRunThisWeek = runMon + runTues + runWed + runThurs + runFri+ runSat + runSun
 
 var avgMilesRan;
-avgMilesRan = (milesRunThisWeek / 7);
+avgMilesRan = milesRunThisWeek / 7;
 
-if ((avgCalConsumed <= 7000 && avgMilesRan >= 10)
+if (avgCalConsumed <= 1000 && avgMilesRan >= 10)
 {
-	document.write("I can buy skinny jeans next month.";
-}
-if ((avgCalConsumed >= 7000 && avgMilesRan >= 10)
-{
-	document.write("No skinny jeans for me.");
+	document.write("I can buy skinny jeans next month!");
 }
 
 </script>
