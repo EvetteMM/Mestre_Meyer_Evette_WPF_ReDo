@@ -25,16 +25,16 @@ var runSun = Number(prompt("How many miles did I run Sunday?", ""));
 var calConsumedThisWeek;
 calConsumedThisWeek = calMon + calTues + calWed + calThur + calFri + calSat + calSun;
 
-var avgCalConsumed;
-avgCalConsumed = calConsumedThisWeek / 1000;
+var calAvg;
+calAvg = calConsumedThisWeek / 7;
 
 var milesRunThisWeek;
 milesRunThisWeek = runMon + runTues + runWed + runThurs + runFri+ runSat + runSun
 
-var avgMilesRan;
-avgMilesRan = milesRunThisWeek / 7;
+var avgMiles;
+avgMiles = milesRunThisWeek / 7;
 
-if (avgCalConsumed <= 1000 && avgMilesRan >= 10)
+if (calAvg <= 1000 && avgMiles >= 10)
 {
 	document.write("I can buy skinny jeans next month!");
 }
