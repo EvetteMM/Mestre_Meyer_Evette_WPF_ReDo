@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+//Evette Mestre Meyer_3-23-13_Conditionals Personal - Fitness Track
+//If the number of calories I eat per day average 1000 or under and the number of miles I run average 10 or more I am staying on my Fitness Track
+//Calories consumed in a week
+var calMon = Number(prompt("How many calories did I consume Monday?", ""));
+var calTues = Number(prompt("How many calories did I consume Tuesday?", ""));
+var calWed = Number(prompt("How many calories did I consume Wednesday?", ""));
+var calThurs = Number(prompt("How many calories did I consume Thursday?", ""));
+var calFri = Number(prompt("How many calories did I consume Friday?", ""));
+var calSat = Number(prompt("How many calories did I consume Saturday?", ""));
+var calSun = Number(prompt("How many calories did I consume Sunday?", ""));
+//Miles run in a week
+var runMon = Number(prompt("How many miles did I run Monday?", ""));
+var runTues = Number(prompt("How many miles did I run Tuesday?", ""));
+var runWed = Number(prompt("How many miles did I run Wednesday?", ""));
+var runThurs = Number(prompt("How many miles did I run Thursday?", ""));
+var runFri = Number(prompt("How many miles did I run Friday?", ""));
+var runSat = Number(prompt("How many miles did I run Saturday?", ""));
+var runSun = Number(prompt("How many miles did I run Sunday?", ""));
+//Total calories consumed
+var calThisWeek;
+calThisWeek = (calMon + calTues + calWed + calThurs + calFri + calSat + calSun);
+var avgCal;
+avgCal = (calThisWeek / 7);
+//Total miles run
+var milesThisWeek;
+milesThisWeek = (runMon + runTues + runWed + runThurs + runFri + runSat + runSun); 
+var avgMiles;
+avgMiles = (milesThisWeek / 7);
+
+//if total calories is less than or equal to 1200 and total miles is greater than or equal to 10, I buy skinny jeans
+if (avgCal <= 1200 && avgMiles >= 14)
+{
+	document.write("I get to buy skinny jeans.")
+}
+
+</script>
+</body>
+</html>
