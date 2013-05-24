@@ -27,12 +27,12 @@ var cukesTotal;
 cukesTotal = lbsCukes * cukePpp;
 
 var totalPoundsOrdered;
-totalPoundsOrdered = lbsLettuce + lbsTomatoes;
+totalPoundsOrdered = lbsLettuce + lbsTomatoes + lbsCukes;
 
 var orderTotal;
-orderTotal = lettuceTotal + tomatoesTotal;
+orderTotal = lettuceTotal + tomatoesTotal + cukesTotal;
 
-if ((totalPoundsOrdered >= 50) || (orderTotal >= 250))
+if (totalPoundsOrdered >= 50 || orderTotal >= 250)
 {
 	document.write("You receive a 10% Discount today!  Thank you for your order.");
 }
