@@ -16,25 +16,25 @@ lettuceTotal = lbsLettuce * lettucePpp;
 
 var lbsTomatoes = Number(prompt("How many pounds of tomatoes would you like today?", ""));
 var tomatoesPpp;
-tomatoesPpp = .50;
+tomatoesPpp = .75;
 var tomatoesTotal;
 tomatoesTotal = lbsTomatoes * tomatoesPpp;
 
 var lbsCukes = Number(prompt("How many pounds of cucumbers would you like today?", ""));
 var cukesPpp;
-cukesPpp = .50;
+cukesPpp = .65;
 var cukesTotal;
-cukesTotal = lbsCukes * cukePpp;
+cukesTotal = lbsCukes * cukesPpp;
 
 var totalPoundsOrdered;
-totalPoundsOrdered = lbsLettuce + lbsTomatoes + lbsCukes;
+totalPoundsOrdered = (lbsLettuce + lbsTomatoes + lbsCukes);
 
 var orderTotal;
-orderTotal = lettuceTotal + tomatoesTotal + cukesTotal;
+orderTotal = (lettuceTotal + tomatoesTotal + cukesTotal);
 
 if (totalPoundsOrdered >= 50 || orderTotal >= 250)
 {
-	document.write("You receive a 10% Discount today!  Thank you for your order.");
+	document.write("You receive a 10% Discount today.  Your total is $" + orderTotal * .90 + ". Thank you for your order.");
 }
 
 </script>
