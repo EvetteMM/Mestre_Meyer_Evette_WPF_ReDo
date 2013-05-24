@@ -9,7 +9,7 @@
 //My kids go to gymnastics camp and dance camp most of the summer.  Have $5000 to spend for summer vacation.  Need to decide if we can afford to book a week-long Disney Cruise or a week at a Dude Ranch.
 var gymCamp = Number(prompt("How much is Genie\'s Gymnastics charging for summer camp this year?", ""));
 var danceCamp = Number(prompt("How much is That\'s Dancing charging for summer camp this year?", ""));
-var disneyCruise = Number(prompt("How much did travel agent quote for one week Disney cruise for 4 people?", ""));
+var disneyCruise = Number(prompt("How much did travel agent quote for a one week Disney cruise for 4 people?", ""));
 var dudeRanch = Number(prompt("How much did Dude Ranch quote for one week for 4 people?", ""));
 var campsCost;
 campsCost = gymCamp + danceCamp;
@@ -27,5 +27,9 @@ else if ((campsCost + disneyCruise) > 5000 && (campsCost + dudeRanch > 5000))
 {
 	document.write("We will go to camp and chill out by the pool.");
 } 
+else if ((campsCost + disneyCruise) < 5000 && (campsCost + dudeRanch < 5000))
+{
+	document.write("We will flip a coin.");
+}
 </body>
 </html>
