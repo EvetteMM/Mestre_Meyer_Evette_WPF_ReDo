@@ -22,21 +22,21 @@ var runFri = Number(prompt("How many miles did I run Friday?", ""));
 var runSat = Number(prompt("How many miles did I run Saturday?", ""));
 var runSun = Number(prompt("How many miles did I run Sunday?", ""));
 
-var calConsumedThisWeek;
-calConsumedThisWeek = calMon + calTues + calWed + calThur + calFri + calSat + calSun;
+var calsThisWeek;
+calsThisWeek = calMon + calTues + calWed + calThur + calFri + calSat + calSun;
 
 var calAvg;
-calAvg = calConsumedThisWeek / 7;
+calAvg = calsThisWeek / 7;
 
-var milesRunThisWeek;
-milesRunThisWeek = runMon + runTues + runWed + runThurs + runFri+ runSat + runSun
+var milesThisWeek;
+milesThisWeek = runMon + runTues + runWed + runThurs + runFri+ runSat + runSun
 
 var avgMiles;
-avgMiles = milesRunThisWeek / 7;
+avgMiles = milesThisWeek / 7;
 
 if (calAvg <= 1000 && avgMiles >= 10)
 {
-	document.write("I can buy skinny jeans next month!");
+	document.write("I can buy those skinny jeans!");
 }
 
 </script>
