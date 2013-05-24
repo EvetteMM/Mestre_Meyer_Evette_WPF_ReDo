@@ -9,19 +9,22 @@
 //Ppp is shorthands for price per pound
 
 var lbsLettuce = Number(prompt("How many pounds of lettuce would you like today?"), "");
-
 var lettucePpp;
 lettucePpp = .50;
-
 var lettuceTotal;
-lettuceTotal = (lbsLettuce * lettucePpp);
+lettuceTotal = lbsLettuce * lettucePpp;
 
 var lbsTomatoes = Number(prompt("How many pounds of tomatoes would you like today?"), "");
 var tomatoesPpp;
 tomatoesPpp = .50;
-
 var tomatoesTotal;
-tomatoesTotal = (lbsTomatoes * tomatoesPpp);
+tomatoesTotal = lbsTomatoes * tomatoesPpp;
+
+var lbsCukes = Number(prompt("How many pounds of cucumbers would you like today?"), "");
+var cukesPpp;
+cukesPpp = .50;
+var cukesTotal;
+cukesTotal = lbsCukes * cukePpp;
 
 var totalPoundsOrdered;
 totalPoundsOrdered = lbsLettuce + lbsTomatoes;
