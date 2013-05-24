@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<body>
+<script type="text/javascript">
+
+//Evette Mestre Meyer_5-23-13_Conditionals_Wacky - Disney or Dude
+
+//My kids go to gymnastics camp and dance camp most of the summer.  Have $5000 to spend for summer vacation.  Need to decide if we can afford to book a week-long Disney Cruise or a week at a Dude Ranch.
+var gymCamp = Number(prompt("How much is Genie\'s Gymnastics charging for summer camp this year?", ""));
+var danceCamp = Number(prompt("How much is That\'s Dancing charging for summer camp this year?", ""));
+var disneyCruise = Number(prompt("How much did travel agent quote for one week Disney cruise for 4 people?", ""));
+var dudeRanch = Number(prompt("How much did Dude Ranch quote for one week for 4 people?", ""));
+var campsCost;
+campsCost = gymCamp + danceCamp;
+
+if ((campsCost + disneyCruise) > 5000 && (campsCost + dudeRanch) < 5000)
+{
+	document.write("Yeehaw, we are going to the Dude Ranch.");
+}
+
+if ((campsCost + dudeRanch) > 5000)
+{
+	document.write("Woohoo, we are cruising.");
+}
+else if ((campsCost + disneyCruise) > 5000 && (campsCost + dudeRanch > 5000))
+{
+	document.write("We will go to camp and chill out by the pool.");
+} 
+</body>
+</html>
