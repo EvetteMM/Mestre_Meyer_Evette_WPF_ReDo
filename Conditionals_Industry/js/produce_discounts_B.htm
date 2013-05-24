@@ -36,6 +36,10 @@ if (totalPoundsOrdered >= 50 || orderTotal >= 250)
 {
 	document.write("You receive a 10% Discount today.  Your total is $" + orderTotal * .90 + ". Thank you for your order.");
 }
+if (totalPoundsOrdered < 50 || orderTotal < 250)
+{
+	document.write("Your total is $ " + orderTotal + ". Thank you for your order.");
+}
 
 </script>
 </body>
