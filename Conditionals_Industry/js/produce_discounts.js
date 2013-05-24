@@ -20,7 +20,7 @@ tomatoesPpp = .50;
 var tomatoesTotal;
 tomatoesTotal = lbsTomatoes * tomatoesPpp;
 
-var lbsCukes = NumberNumber(prompt("How many pounds of cucumbers would you like today?", ""));
+var lbsCukes = Number(prompt("How many pounds of cucumbers would you like today?", ""));
 var cukesPpp;
 cukesPpp = .50;
 var cukesTotal;
