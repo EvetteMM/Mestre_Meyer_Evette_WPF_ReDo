@@ -33,9 +33,16 @@ var avgMiles;
 avgMiles = (milesThisWeek / 7);
 
 //if total calories is less than or equal to 1200 and total miles is greater than or equal to 10, I buy skinny jeans
-if (avgCal <= 1200 && avgMiles >= 14)
+if (avgCal <= 1200 && avgMiles >= 2)
 {
-	document.write("I get to buy skinny jeans.")
+	console.log("I get to buy skinny jeans.");
+	console.log(avgCal);
+	console.log(avgMiles);
+}
+else{
+	console.log("I lose.");
+	console.log(avgCal);
+	console.log(avgMiles);
 }
 
 </script>
