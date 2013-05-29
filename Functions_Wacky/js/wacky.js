@@ -8,7 +8,7 @@
 //Amanda has money from chores and birthday gifts saved up.  An iPod costs $199. Does she have enough yet?
 var choreMoney =Number(prompt("How much chore money have you saved up?", ""));
 var bdayMoney =Number(prompt("How much birthday money have you saved up?", ""));
-//Figure out if money saved is enough to buy an iPod
+//Figure out if money saved is enough to buy an iPod by totaling chore and bday money and comparing to cost of iPod
 function calcEnoughSaved(choreMoney, bdayMoney){
 	var choreMoney;
 	var bdayMoney;
