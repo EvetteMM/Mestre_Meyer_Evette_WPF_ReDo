@@ -2,8 +2,7 @@
 //Calculate gross pay including overtime
 var hrsWorked =Number(prompt("How many hours did you work this week?", ""));
 //function needs to calculate how many overtime hours first.  Then multiply reg hourly rate by reg hours and ot hourly rate by ot hours
-function calcGrossPay(){
-	var hoursWorked;
+function calcGrossPay(hrsWorked){
 	var regHours = 30;
 	var otHours = (hoursWorked - regHours);
 	var regRate = 10;
