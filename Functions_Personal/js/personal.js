@@ -14,7 +14,7 @@ function calcBetterSavings(schoolTuition, templeMembership){
 	console.log("The tuition savings for next year is $" + tuitionSavings ". The total temple membership for next year is $" + membershipSavings + ".");
 	return membershipSavings;
 }
-calcBetterSavings(schoolTuition, templeMembership);
+var test = calcBetterSavings(schoolTuition,templeMembership);
 //make decision about which to pay
 if (tuitionSavings >= membershipSavings)
 {
