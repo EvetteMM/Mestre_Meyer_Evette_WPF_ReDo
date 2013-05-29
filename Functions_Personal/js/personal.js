@@ -18,9 +18,9 @@ calcBetterSavings(schoolTuition, templeMembership);
 //make decision about which to pay
 if (tuitionSavings >= membershipSavings)
 {
-	document.write("Pay the school by June 1st.");
+	console.log("Pay the school by June 1st.");
 }
 else if (tuitionSavings <= membershipSavings)
 {
-	document.write("Pay the temple by June 1st");
+	console.log("Pay the temple by June 1st");
 }
