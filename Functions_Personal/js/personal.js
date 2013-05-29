@@ -5,7 +5,6 @@ var schoolTuition =Number(prompt("How much is school tuition next year?", ""));
 var templeMembership =Number(prompt("How much is temple membership next year?", ""));
 //calculate discounts for each to get total savings
 function calcBetterSavings(schoolTuition, templeMembership){
-	var schoolTuition;
 	var templeMembership;
 	var schoolDiscount = .15;
 	var templeDiscount = .20;
@@ -13,6 +12,7 @@ function calcBetterSavings(schoolTuition, templeMembership){
 	var membershipSavings = templeMembership * templeDiscount;
 	//compare savings for each
 	console.log("The tuition savings for next year is $" + tuitionSavings ". The total temple membership for next year is $" + membershipSavings + ".");
+	return membershipSavings;
 }
 calcBetterSavings(schoolTuition, templeMembership);
 //make decision about which to pay
