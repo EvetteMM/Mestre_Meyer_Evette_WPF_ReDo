@@ -14,6 +14,7 @@ function calcGrossPay(){
 	var regRate = 10;
 	var otRate = 15;
 	var grossPay = ((regHours * regRate) + (otHours * otRate));
+	console.log("Your regular salary and overtime pay total $" + grossPay);
 }
 calcGrossPay(hrsWorked);
 
