@@ -15,6 +15,7 @@ function calcBetterSavings(schoolTuition, templeMembership){
 	return membershipSavings;
 }
 var test = calcBetterSavings(schoolTuition,templeMembership);
+console.log(test);
 //make decision about which to pay
 if (tuitionSavings >= membershipSavings)
 {
