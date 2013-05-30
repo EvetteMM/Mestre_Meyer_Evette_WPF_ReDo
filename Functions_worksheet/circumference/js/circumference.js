@@ -1,19 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<body>
-
-<script type="text/javascript">
 //Evette Mestre Meyer_5-30-13_Functions_Worksheet_Circumference
 //calculate the circumferene of a circle
-function calcCircumference(){
+var radius =Number(prompt("What is the radius of the circle?", ""));
+function calcCircumference(radius){
 	var pi = 3.14;
 	var radius = 10;
 	var doubleRadius = 2;
 	var circumference = (pi * radius * doubleRadius);
 	document.write(circumference);
 }
-calcCircumference();
-</script>
-</body>
-</html>
+calcCircumference(radius);
