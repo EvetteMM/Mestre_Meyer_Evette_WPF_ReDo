@@ -5,9 +5,10 @@ function calcCircumference(radius){
 	var pi = 3.14;
 	var doubleRadius = 2;
 	var circumference = (pi * radius * doubleRadius);
-	document.write(circumference);
+	console.log(circumference);
 }
 //Invoke function
 calcCircumference(radius);
 //Create variable for result
 var calcCircumference;
+document.write("calcCircumference");
