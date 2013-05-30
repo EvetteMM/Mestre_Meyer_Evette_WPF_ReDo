@@ -3,7 +3,6 @@
 var radius =Number(prompt("What is the radius of the circle?", ""));
 function calcCircumference(radius){
 	var pi = 3.14;
-	var radius = 10;
 	var doubleRadius = 2;
 	var circumference = (pi * radius * doubleRadius);
 	document.write(circumference);
