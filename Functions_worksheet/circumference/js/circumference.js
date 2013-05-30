@@ -9,3 +9,5 @@ function calcCircumference(radius){
 }
 //Invoke function
 calcCircumference(radius);
+//Create variable for result
+var calcCircumference;
