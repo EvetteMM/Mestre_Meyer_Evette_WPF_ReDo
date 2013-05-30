@@ -8,4 +8,5 @@ function calcKill(animalWeight){
 	var kill = beeStingsPerPound * animalWeight;
 	console.log=("It takes " + beeStingsPerPound + "to kill a " + animalWeight + " pound dog.");
 }
+//Invoke function
 calKill(animalWeight);
