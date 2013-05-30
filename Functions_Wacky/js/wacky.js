@@ -1,8 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-"http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-<body>
-<script type="text/javascript">
 //Evette Mestre Meyer_5-30-13_Functions_Wacky
 //Can Amanda get a new iPod?
 //Amanda has money from chores and birthday gifts saved up.  An iPod costs $199. Does she have enough yet?
@@ -17,7 +12,8 @@ function calcEnoughSaved(choreMoney, bdayMoney){
 	var enoughSaved = totalMoneySaved - iPodCost;
 	console.log("Amanda has $" + totalMoneySaved + " saved.")
 }
-calcEnoughSaved(choreMoney, bdayMoney);
+var test = calcEnoughSaved(choreMoney, bdayMoney);
+console.log(test);
 //If money saved is greater than cost of iPod, Amanda has enough
 if (enoughSaved >= iPodCost)
 {
@@ -28,7 +24,3 @@ else if (enoughSaved <= iPodCost)
 {
 	document.write("Keep saving, Amanda.  You'll get a new iPod soon.");
 }
-
-</script>
-</body>
-</html>
