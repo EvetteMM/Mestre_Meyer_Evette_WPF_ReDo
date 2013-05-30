@@ -16,7 +16,7 @@ function calcBetterSavings(schoolTuition, templeMembership){
 }
 var test = calcBetterSavings(schoolTuition,templeMembership);
 console.log(test);
-//make decision about which to pay
+//make decision about which to pay by June 1st.
 if (tuitionSavings >= membershipSavings)
 {
 	console.log("Pay the school by June 1st.");
