@@ -13,3 +13,4 @@ function calcKill(animalWeight){
 //Invoke function
 calcKill(animalWeight);
 var calcKill;
+document.write("calcKill"); 
