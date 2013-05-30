@@ -5,7 +5,6 @@ var animalWeight =(prompt("What is the weight of the animal?"));
 //Calculate variable into function
 function calcKill(animalWeight){
 	var beeStingsPerPound = 8.666666667;
-	var animalWeight = 10;
 	var kill = beeStingsPerPound * animalWeight;
 	console.log=("It takes " + beeStingsPerPound + "to kill a " + animalWeight + " pound dog.");
 }
